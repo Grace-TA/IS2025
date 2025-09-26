@@ -6,15 +6,11 @@ Ans.: 1. Google Browser for Internet Browsing, MS-Power Point for Presentation, 
 
 <img width="1135" height="699" alt="image" src="https://github.com/user-attachments/assets/83e21e17-da3d-4640-9036-6cd4736450ec" />
 
-
-<img width="203" height="99" alt="image" src="https://github.com/user-attachments/assets/8ea4338a-b343-4ad6-8936-861a9250b1d1" />
-
-
+<img width="2000" height="746" alt="image" src="https://github.com/user-attachments/assets/cb99c790-e051-4eae-98de-0ebd4c8a545c" />
 
 ## Mission 2 (Lab 1: Database Software) Identify any database management or data processing software installed on your classroom PC (e.g., Access, SQL tools). Report "Not Found" if none are present.
 
 Ans.: <img width="748" height="502" alt="image" src="https://github.com/user-attachments/assets/d2f27f1c-0009-4ccf-bd09-c93b697f3bea" />
-
 
 
 ## Mission 3 (Lab 2: Mobile Apps) Choose your 3 most frequently used Apps on your personal mobile phone.
