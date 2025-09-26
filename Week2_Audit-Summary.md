@@ -29,16 +29,20 @@ Ans. Google Gemini is my most important tool by optimizing my person Process (wo
 
 ## Mission 5 (Lab 3: Operating System) Record the Operating System Name and Version for both your PC and Mobile Phone.
 
+Ans.: PC is Win 11. Mobile is Xiaomi HyperOS
+
+<img width="1309" height="1125" alt="image" src="https://github.com/user-attachments/assets/63bc7e16-8b09-4508-a531-9cec24713206" />
 
 ## Mission 6 (Lab 3: Total Storage) Record the Total Storage Capacity for both your PC and Mobile Phone.
+## Mission 7 (Lab 3: Available Storage) Record the Current Available Storage for both your PC and Mobile Phone.
+## Mission 8 (Data Volume Reflection) Based on the data from Missions 6 & 7, calculate which device (PC or phone) has a higher Data Occupancy Ratio (Used Space / Total Capacity).
 
+<img width="1171" height="939" alt="image" src="https://github.com/user-attachments/assets/4142e788-3e4b-4051-9017-087d36fbde7f" />
 
-## Mission 7
+## Mission 9 (System Dependency) During Missions 1-7, which IS element—Hardware or Software—took you the longest to verify? Briefly explain why.
 
+Ans. Storage information in my Android phone because I don't check the space freqently.
 
-## Mission 8
+## Mission A (GitHub Documentation) Organize all tables, text answers, and all required screenshots from Missions 1-9, and make sure them to your GitHub repository professionally.
 
-## Mission 9
-
-
-## Mission A
+Ans. Finished by this Github page.
