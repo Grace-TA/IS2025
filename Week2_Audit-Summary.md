@@ -20,13 +20,17 @@ Ans. LINE, ChatGPT, Gmail
 <img width="2000" height="1013" alt="image" src="https://github.com/user-attachments/assets/6ad0d66e-8ae0-4273-821a-b7215cdb20fb" />
 
 
-## Mission 4
+## Mission 4 (Lab 2: Productivity App) Identify 1 "Productivity" App on your phone and briefly explain how it optimizes a personal Process (workflow).
+
+Ans. Google Gemini is my most important tool by optimizing my person Process (workflow) using AI Agent Framework. It's super powerful! The following Gemini Web UI is shown the YouTube topic and description auto-generation!!
+
+<img width="875" height="697" alt="image" src="https://github.com/user-attachments/assets/a9479ed1-0cf7-4672-b37a-8419a14293e3" />
 
 
-## Mission 5
+## Mission 5 (Lab 3: Operating System) Record the Operating System Name and Version for both your PC and Mobile Phone.
 
 
-## Mission 6
+## Mission 6 (Lab 3: Total Storage) Record the Total Storage Capacity for both your PC and Mobile Phone.
 
 
 ## Mission 7
