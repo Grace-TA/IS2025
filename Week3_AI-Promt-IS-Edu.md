@@ -33,7 +33,7 @@ In a restaurant:
 -----
 
 ### Lab 4: (W4) Tell the AI: "What is the difference between an operating system and application software? Please use the analogy of a house's foundation and its furniture."
-"""
+### Ans.: 
 Using the house analogy, the **operating system (OS)** is the house's foundation, walls, and electrical wiring. It's the essential structure that allows the house to function, but you don't use it directly. **Application software** is the furniture inside, like the sofa, TV, or microwave. You use these "apps" for specific tasks like relaxing or entertainment. You can't place furniture in a house that has no foundation, just as you cannot run an app without an OS.
 
 **Keywords**: 作業系統 (Operating System), 應用軟體 (Application Software), 房屋地基 (House's Foundation), 家具 (Furniture).
@@ -41,7 +41,7 @@ Using the house analogy, the **operating system (OS)** is the house's foundation
 -----
 
 ### Lab 5: (W5) Tell the AI: "What is the difference between Data, Information, and Knowledge? Please use the example of a daily weather forecast to illustrate the transformation relationship between the three."
-"""
+### Ans.: 
 Using a weather forecast:
 
   * **Data** consists of raw, unprocessed numbers: "temperature: 25°C," "humidity: 70%," "wind: 15 km/h."
@@ -53,7 +53,7 @@ Using a weather forecast:
 -----
 
 ### Lab 6: (W3) Tell the AI: "Please use a table to compare five main differences between a Personal Computer (PC) and an Enterprise Server."
-"""
+### Ans.: 
 | Feature | Personal Computer (PC) | Enterprise Server |
 | :--- | :--- | :--- |
 | **Primary Purpose** | Used by one person for tasks like browsing, email, and gaming. | Serves data and applications to many users simultaneously. |
@@ -67,7 +67,7 @@ Using a weather forecast:
 -----
 
 ### Lab 7: (W4) Tell the AI: "Compare the advantages and disadvantages of Open Source Software and Software as a Service (SaaS)."
-"""
+### Ans.: 
 **Open Source Software:**
 
   * **Advantages**: Typically free, highly customizable with available source code, strong community support.
@@ -83,7 +83,7 @@ Using a weather forecast:
 -----
 
 ### Lab 8: (W5) Tell the AI: "What types of problems are Relational Databases and Big Data technologies each best suited to handle?"
-"""
+### Ans.: 
 **Relational Databases** (e.g., SQL) are best for handling **structured data** with strict, predefined relationships. They excel where data integrity is critical, such as in financial transaction systems, inventory management, or airline reservations, where accuracy is paramount.
 
 **Big Data technologies** (e.g., NoSQL) are designed for massive volumes of **unstructured or semi-structured data**. They are ideal for analyzing social media feeds, processing real-time IoT sensor data, or powering recommendation engines, where scalability and flexibility are more important than strict consistency.
@@ -93,7 +93,7 @@ Using a weather forecast:
 -----
 
 ### Lab 9: (W6) Tell the AI: "Please use a table to compare the three service models of cloud computing: IaaS, PaaS, and SaaS."
-"""
+### Ans.: 
 | Service Model | You Manage | Vendor Manages | Example |
 | :--- | :--- | :--- | :--- |
 | **IaaS** (Infrastructure) | Applications, Data, OS | Virtualization, Servers, Storage | Amazon Web Services (AWS) EC2 |
@@ -105,7 +105,7 @@ Using a weather forecast:
 -----
 
 ### Lab 10: (W7) Tell the AI: "What are the similarities and differences between a Phishing attack and a Ransomware attack?"
-"""
+### Ans.: 
 **Similarities**: Both are cyberattacks often initiated via deceptive emails (social engineering) that exploit human vulnerability to trick a user into taking a harmful action.
 
 **Differences**: Their goals are different. A **Phishing** attack aims to *steal* sensitive information like login credentials or credit card numbers by impersonating a trustworthy entity. A **Ransomware** attack aims to *encrypt* a victim's files, making them inaccessible, and then demands a payment (ransom) in exchange for the decryption key.
@@ -115,7 +115,7 @@ Using a weather forecast:
 -----
 
 ### Lab 11: (W7) Tell the AI: "You are a cybersecurity consultant. The owner of a small e-commerce website has come to you for advice. Please list the top three security threats they need to worry about and explain why."
-"""
+### Ans.: 
 As your cybersecurity consultant, here are the top three threats for your e-commerce site:
 
 1.  **Phishing/Social Engineering**: Attackers will target you with fake emails to steal administrative passwords. Because small businesses often lack extensive security training, one mistake could give an attacker full control.
@@ -127,7 +127,7 @@ As your cybersecurity consultant, here are the top three threats for your e-comm
 -----
 
 ### Lab 12: (W8) Tell the AI: "You are the CEO of a company. Please argue both for and against the statement: 'IT can provide a sustainable competitive advantage for my company.'"
-"""
+### Ans.: 
 As CEO, I see both sides:
 
 **Argument For**: IT *can* provide a sustainable advantage when it is proprietary and deeply integrated with our unique processes. If we develop custom logistics software that cuts delivery times in half or a unique data model that predicts market trends, competitors cannot easily copy this. This creates a long-term, defensible edge.
@@ -138,36 +138,32 @@ As CEO, I see both sides:
 
 -----
 
-"""
-Lab 13: (W8) Tell the AI: "Analyze how Starbucks uses its CRM system to optimize the business process of enhancing customer experience."
-"""
+### Lab 13: (W8) Tell the AI: "Analyze how Starbucks uses its CRM system to optimize the business process of enhancing customer experience."
+### Ans.: 
 Starbucks masterfully uses its CRM system, primarily through the Starbucks Rewards app, to enhance the customer experience. It collects data on purchase history, frequent locations, and favorite orders. This allows Starbucks to **personalize** marketing offers and recommendations, making customers feel understood. It also streamlines the **ordering and payment process**, reducing wait times. This data-driven approach not only enhances convenience but also fosters strong loyalty, turning casual visitors into daily regulars and driving repeat business.
 
 **Keywords**: 星巴克 (Starbucks), 顧客關係管理 (CRM), 個人化 (Personalization), 顧客忠誠度 (Customer Loyalty).
 
 -----
 
-"""
-Lab 14: (W10) Tell the AI: "You are a project manager. Explain why 'Agile development' is better suited for rapidly changing market demands than the traditional 'Waterfall model.'"
-"""
+### Lab 14: (W10) Tell the AI: "You are a project manager. Explain why 'Agile development' is better suited for rapidly changing market demands than the traditional 'Waterfall model.'"
+### Ans.: 
 As a project manager, the traditional **'Waterfall model'** is rigid. We must finish one entire phase, like design, before starting the next. If market demands change mid-project, it's incredibly difficult and costly to go back. In contrast, **'Agile development'** works in short, iterative cycles called 'sprints'. This allows us to build, test, and get feedback on small parts of the product continuously. We can easily adapt our plan after each sprint, making Agile far superior for responding to rapidly changing markets.
 
 **Keywords**: 專案經理 (Project Manager), 敏捷開發 (Agile Development), 瀑布模型 (Waterfall Model), 市場需求 (Market Demands).
 
 -----
 
-"""
-Lab 15: (W12) Tell the AI: "You are an economist. Analyze how the emerging skill of 'Prompt Engineering' will affect the digital divide between developed and developing countries."
-"""
+### Lab 15: (W12) Tell the AI: "You are an economist. Analyze how the emerging skill of 'Prompt Engineering' will affect the digital divide between developed and developing countries."
+### Ans.: 
 As an economist, 'Prompt Engineering' could have a dual effect on the digital divide. It might **widen the divide** by creating a new skill gap; nations that master communicating with AI will unlock greater productivity, leaving others behind. Conversely, it could **narrow the divide**. By lowering the technical barrier to using powerful AI, effective prompting empowers non-coders to create businesses, access information, and solve complex problems, potentially democratizing access to technology that was once exclusive. The outcome depends heavily on education policies.
 
 **Keywords**: 經濟學家 (Economist), 提示工程 (Prompt Engineering), 數位落差 (Digital Divide), 技能差距 (Skill Gap).
 
 -----
 
-"""
-Lab 16: (W9) Tell the AI: "I need to analyze Nike's information system strategy. Please generate a five-paragraph outline for my midterm report (Introduction, Body 1, Body 2, Body 3, Conclusion)."
-"""
+### Lab 16: (W9) Tell the AI: "I need to analyze Nike's information system strategy. Please generate a five-paragraph outline for my midterm report (Introduction, Body 1, Body 2, Body 3, Conclusion)."
+### Ans.: 
 **Outline: Nike's Information System Strategy**
 
   * **Introduction**: Argue that Nike's dominance is built on an integrated IS strategy focusing on supply chain optimization, a powerful direct-to-consumer (D2C) ecosystem, and data-driven digital marketing.
@@ -180,9 +176,8 @@ Lab 16: (W9) Tell the AI: "I need to analyze Nike's information system strategy.
 
 -----
 
-"""
-Lab 17: (W11) Tell the AI: "Please generate a snippet of Python code with comments explaining the 'training' process in machine learning." (This lab can be done in Colab).
-"""
+### Lab 17: (W11) Tell the AI: "Please generate a snippet of Python code with comments explaining the 'training' process in machine learning." (This lab can be done in Colab).
+### Ans.: 
 
 ```python
 # Import necessary libraries
@@ -212,9 +207,8 @@ print("Model training is complete.")
 
 -----
 
-"""
-Lab 18: (W13) Tell the AI: "I need to report the benefits of introducing AI for data analysis to senior management. Please generate a three-slide presentation outline, including titles and key points."
-"""
+### Lab 18: (W13) Tell the AI: "I need to report the benefits of introducing AI for data analysis to senior management. Please generate a three-slide presentation outline, including titles and key points."
+### Ans.: 
 **Outline: Benefits of AI for Data Analysis**
 
   * **Slide 1: The Challenge: Drowning in Data**
@@ -236,9 +230,8 @@ Lab 18: (W13) Tell the AI: "I need to report the benefits of introducing AI for 
 
 -----
 
-"""
-Lab 19: (W14) Tell the AI: "Please organize the three core principles of GDPR and their impact on businesses into a Markdown table."
-"""
+### Lab 19: (W14) Tell the AI: "Please organize the three core principles of GDPR and their impact on businesses into a Markdown table."
+### Ans.: 
 | Core GDPR Principle | Description | Impact on Businesses |
 | :--- | :--- | :--- |
 | **Lawfulness, Fairness, Transparency** | Data processing must be lawful, fair, and transparent to the data subject. | Businesses must clearly state in their privacy policy *why* they collect data and how it is used, in simple language. |
@@ -249,9 +242,8 @@ Lab 19: (W14) Tell the AI: "Please organize the three core principles of GDPR an
 
 -----
 
-"""
-Lab 20: (W15) Tell the AI: "Please design a data structure in JSON format for a 'smart home' scenario, including the status of lights, temperature, and security cameras."
-"""
+### Lab 20: (W15) Tell the AI: "Please design a data structure in JSON format for a 'smart home' scenario, including the status of lights, temperature, and security cameras."
+### Ans.: 
 
 ```json
 {
@@ -283,9 +275,8 @@ Lab 20: (W15) Tell the AI: "Please design a data structure in JSON format for a 
 
 -----
 
-"""
-Lab 21: (W4/W8) Tell the AI: "For a coffee shop on a university campus, brainstorm 5 ideas to increase revenue or reduce costs using information systems (not limited to apps)."
-"""
+### Lab 21: (W4/W8) Tell the AI: "For a coffee shop on a university campus, brainstorm 5 ideas to increase revenue or reduce costs using information systems (not limited to apps)."
+### Ans.: 
 
 1.  **Dynamic Discounting**: Use sales data to identify the slowest hours. Automatically push a time-limited discount to students' phones via the campus app to drive traffic during these off-peak times.
 2.  **Predictive Inventory**: Analyze past sales data correlated with the academic calendar. The system can predict rushes for caffeine during exam weeks and automatically suggest increasing ingredient orders to reduce waste.
@@ -297,9 +288,8 @@ Lab 21: (W4/W8) Tell the AI: "For a coffee shop on a university campus, brainsto
 
 -----
 
-"""
-Lab 22: (W11/W16) Tell the AI: "For my final project, I want to create an 'AI Learning Assistant.' Please help me brainstorm 10 potential core features."
-"""
+### Lab 22: (W11/W16) Tell the AI: "For my final project, I want to create an 'AI Learning Assistant.' Please help me brainstorm 10 potential core features."
+### Ans.: 
 
 1.  **Personalized Study Planner**: Generates a dynamic learning schedule based on a syllabus.
 2.  **Concept Explainer**: Breaks down complex topics into simple analogies.
@@ -316,9 +306,8 @@ Lab 22: (W11/W16) Tell the AI: "For my final project, I want to create an 'AI Le
 
 -----
 
-"""
-Lab 23: (W15) Tell the AI: "For a fast-fashion brand like ZARA, brainstorm 3 innovative services that could apply 'hyper-personalization' technology."
-"""
+### Lab 23: (W15) Tell the AI: "For a fast-fashion brand like ZARA, brainstorm 3 innovative services that could apply 'hyper-personalization' technology."
+### Ans.: 
 
 1.  **AI-Powered "Style Twin"**: Users create a detailed style profile, and the AI generates a digital avatar. They can instantly see how new clothing items look on their "twin" and receive AI-curated outfits that match their existing wardrobe.
 2.  **In-Store Smart Mirror Recommendations**: When a customer enters a fitting room, a smart mirror recognizes the item via RFID. It then displays personalized recommendations for other items in the store that would complete the outfit, based on their purchase history.
@@ -328,9 +317,8 @@ Lab 23: (W15) Tell the AI: "For a fast-fashion brand like ZARA, brainstorm 3 inn
 
 -----
 
-"""
-Lab 24: (W16) Tell the AI: "My team wants to solve the problem of 'course selection anxiety' for university students. Help us brainstorm a name and a catchy slogan for a solution that incorporates LLM technology."
-"""
+### Lab 24: (W16) Tell the AI: "My team wants to solve the problem of 'course selection anxiety' for university students. Help us brainstorm a name and a catchy slogan for a solution that incorporates LLM technology."
+### Ans.: 
 
   * **Name**: **CourseCraft**
   * **Slogan**: **Your degree, designed.**
@@ -341,9 +329,8 @@ Lab 24: (W16) Tell the AI: "My team wants to solve the problem of 'course select
 
 -----
 
-"""
-Lab 25: (W14) Tell the AI: "You are an ethicist and a tech company CEO. Please conduct a debate on the pros and cons of using AI for employee performance evaluations."
-"""
+### Lab 25: (W14) Tell the AI: "You are an ethicist and a tech company CEO. Please conduct a debate on the pros and cons of using AI for employee performance evaluations."
+### Ans.: 
 **The Debate: AI in Performance Reviews**
 
   * **Tech CEO (Pro-AI)**: "AI removes human bias from evaluations. It analyzes objective data—sales figures, project completion rates—to provide a truly fair assessment. This data-driven approach allows us to identify top performers impartially and provide targeted feedback for improvement, leading to a more productive and meritocratic workplace."
@@ -353,9 +340,8 @@ Lab 25: (W14) Tell the AI: "You are an ethicist and a tech company CEO. Please c
 
 -----
 
-"""
-Lab 26: (W12) Tell the AI: "I am preparing for an interview for a 'Business Analyst' position. Please help me draft a professional self-introduction email in English, emphasizing my interest in data and AI."
-"""
+### Lab 26: (W12) Tell the AI: "I am preparing for an interview for a 'Business Analyst' position. Please help me draft a professional self-introduction email in English, emphasizing my interest in data and AI."
+### Ans.: 
 Subject: Following Up: Business Analyst Interview - [Your Name]
 
 Dear [Hiring Manager's Name],
@@ -374,9 +360,8 @@ Best regards,
 
 -----
 
-"""
-Lab 27: (W13) Tell the AI: "My final project is an 'AI Travel Planning Assistant.' Please help me design the core conversational flow between the user and the AI."
-"""
+### Lab 27: (W13) Tell the AI: "My final project is an 'AI Travel Planning Assistant.' Please help me design the core conversational flow between the user and the AI."
+### Ans.: 
 **Core Conversational Flow: AI Travel Planner**
 
 1.  **Initiation**: AI: "Hello\! I'm your AI travel planner. Where would you like to go, and for how many days?" User: "Paris for 5 days."
@@ -389,9 +374,8 @@ Lab 27: (W13) Tell the AI: "My final project is an 'AI Travel Planning Assistant
 
 -----
 
-"""
-Lab 28: (W17) Tell the AI: "For my final project's Google Site showcase, please write the copy for the 'About Us' and 'Project Introduction' sections."
-"""
+### Lab 28: (W17) Tell the AI: "For my final project's Google Site showcase, please write the copy for the 'About Us' and 'Project Introduction' sections."
+### Ans.: 
 **About Us**
 
 "We are Team CourseCraft, a dedicated group of students from the 'Introduction to Information Systems' course. United by a passion for solving real-world challenges with technology, our team combines expertise in business strategy, user-centric design, and AI development. We believe the most powerful technology simplifies complexity and empowers individuals. Our mission is to build intuitive tools that create a meaningful impact on the student experience."
@@ -404,9 +388,8 @@ Lab 28: (W17) Tell the AI: "For my final project's Google Site showcase, please 
 
 -----
 
-"""
-Lab 29: (W18) Tell the AI: "I need to present my AI project at the final presentation. Help me design a 30-second 'Elevator Pitch' script that will quickly capture the judges' attention."
-"""
+### Lab 29: (W18) Tell the AI: "I need to present my AI project at the final presentation. Help me design a 30-second 'Elevator Pitch' script that will quickly capture the judges' attention."
+### Ans.: 
 "(Start speaking as you join the judge)
 
 You know how university students waste weeks stressing over which courses to pick, afraid one bad choice will delay their graduation?
@@ -419,9 +402,8 @@ We make academic planning simple and stress-free, ensuring students graduate on 
 
 -----
 
-"""
-Lab 30: (Comprehensive) Tell the AI: "Reviewing these 30 exercises, please summarize the 5 most important 'Prompt Engineering' principles, and provide a new example for each."
-"""
+### Lab 30: (Comprehensive) Tell the AI: "Reviewing these 30 exercises, please summarize the 5 most important 'Prompt Engineering' principles, and provide a new example for each."
+### Ans.: 
 Based on these exercises, here are the 5 most important Prompt Engineering principles:
 
 1.  **Provide Role and Context**: Tell the AI *who it is*.
