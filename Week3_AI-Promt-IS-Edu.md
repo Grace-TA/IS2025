@@ -6,6 +6,8 @@
 ### Ans.: 
 An information system is like a magical toy box. You put your messy toys (**data**) inside. The box has special rules (the **software**) that help you neatly arrange them. The box itself is the **hardware**. When you want a specific toy, the box helps you find it right away, all neat and ready. That organized toy is now useful **information**. You, the person playing, are the most important part of this system\!
 
+<img width="460" height="276" alt="image" src="https://github.com/user-attachments/assets/c23f2f07-e05b-4c5b-b7e7-b01b93f590d9" />
+
 **Keywords**: 資訊系統 (Information System), 資料 (Data), 資訊 (Information), 硬體 (Hardware), 軟體 (Software).
 
 -----
