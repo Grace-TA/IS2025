@@ -22,6 +22,8 @@ In a restaurant:
   * **People** are the chefs, waiters, managers, and customers using the system.
   * **Processes** are the steps for taking an order, preparing the food, and handling the bill.
 
+<img width="571" height="312" alt="image" src="https://github.com/user-attachments/assets/3a9a9861-dbe4-4a31-b234-293479949107" />
+
 **Keywords**: 五大組成部分 (Five Components), 硬體 (Hardware), 軟體 (Software), 資料 (Data), 人員 (People), 流程 (Processes).
 
 -----
@@ -29,6 +31,9 @@ In a restaurant:
 ### Lab 3: (W3) Tell the AI: "Explain 'Moore's Law' and provide a real-world product example from the last 20 years that demonstrates it."
 ### Ans.:
 **Moore's Law** observes that the number of transistors on a microchip doubles roughly every two years, leading to increased computing power at a lower cost. A perfect example is the **smartphone**. The original 2007 iPhone's processor had about 100 million transistors. The processor in a modern iPhone has over 19 billion, making it thousands of times more powerful for tasks like AI and gaming, all within a similarly sized device. This exponential growth in capability perfectly demonstrates Moore's Law in action.
+
+<img width="515" height="300" alt="image" src="https://github.com/user-attachments/assets/d1d7146f-ee22-4e89-8638-79609266eb0a" />
+
 
 **Keywords**: 摩爾定律 (Moore's Law), 電晶體 (Transistors), 運算能力 (Computing Power), 智慧型手機 (Smartphone).
 
