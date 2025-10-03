@@ -10,6 +10,15 @@ An information system is like a magical toy box. You put your messy toys (**data
 
 **Keywords**: 資訊系統 (Information System), 資料 (Data), 資訊 (Information), 硬體 (Hardware), 軟體 (Software).
 
+#### Note: Explain to an 80 years old people
+#### Ans.: An information system is like a well-organized address book or recipe box.
+
+Think of your trusted address book. All the names and numbers are the raw facts, or data. The book and pen are the physical tools, like hardware. The way you organize it, alphabetically by last name, is your personal rule, like software. When you need to call a friend, you use this system to quickly look up their number. That found number is now useful information.
+
+A computer's information system does the same thing, just much faster and for a lot more data.
+
+<img width="562" height="304" alt="image" src="https://github.com/user-attachments/assets/a52c75be-578f-44fd-b5a8-899fe94c3598" />
+
 -----
 
 ### Lab 2: (W2) Tell the AI: "Using a restaurant as an example, explain the five components of an information system: hardware, software, data, people, and processes."
