@@ -13,7 +13,7 @@
 1. 這是一段 AI 為您生成的程式碼: https://github.com/Grace-TA/IS2025/blob/main/VibeCoding_Calculator.html
 2. 您可以直接將其存為 .html 檔案 then 在瀏覽器中運行
 3. Preview: https://htmlpreview.github.io/?https://github.com/Grace-TA/IS2025/blob/main/VibeCoding_Calculator.html
-
+4. Formal: https://grace-ta.github.io/IS2025/VibeCoding_Calculator.html
 ## Note: 在 GitHub 上看到的只是 「建築藍圖 (Source Code)」，而您想要的是 「完工的建築 (Rendered Webpage)」。GitHub 預設只會展示程式碼內容，不會自動執行 HTML
 
 核心問題：GitHub 儲存庫 (Repository) 是用來存檔的，不是直接用來「看網頁」的。
