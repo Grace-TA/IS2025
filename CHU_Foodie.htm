@@ -1,0 +1,174 @@
+import React, { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { 
+  Utensils, 
+  Flame, 
+  DollarSign, 
+  Clock, 
+  MapPin, 
+  Navigation, 
+  Shuffle, 
+  Star,
+  Zap,
+  Coffee
+} from 'lucide-react';
+
+// --- 美食資料庫 (基於中華大學周邊與大庄地區) ---
+const FOOD_DATABASE = [
+  { name: '大庄老店牛肉麵', category: 'hot', vibe: '想吃熱的', price: 'medium', rating: 4.5, desc: '香山區經典老店，湯頭濃郁，適合想補充能量的時刻。' },
+  { name: 'CHU 學餐自助餐', category: 'budget', vibe: '想省錢', price: 'low', rating: 3.8, desc: '校內最高效率選擇，菜色多樣，符合小資預算。' },
+  { name: '老陳魯肉飯', category: 'hot', vibe: '想吃熱的', price: 'low', rating: 4.2, desc: '大庄商圈排隊美食，肥而不膩的滷汁是靈魂。' },
+  { name: '大庄鹽酥雞 (午間套餐)', category: 'efficiency', vibe: '速戰速決', price: 'medium', rating: 4.0, desc: '快速解饞首選，適合趕課前的忙碌時段。' },
+  { name: '健康低卡輕食盒', category: 'healthy', vibe: '清淡健康', price: 'high', rating: 4.3, desc: '低GI健康餐盒，適合下午需要保持清醒思考的您。' },
+  { name: '阿霞意麵', category: 'hot', vibe: '想吃熱的', price: 'low', rating: 4.1, desc: '溫潤的家鄉味，熱騰騰的乾麵配上餛飩湯最暖胃。' },
+  { name: '早安香山 (全天候早午餐)', category: 'budget', vibe: '想省錢', price: 'medium', rating: 4.4, desc: 'CP值極高，環境舒適，也適合邊吃邊討論研究。' },
+  { name: '大庄火雞肉飯', category: 'efficiency', vibe: '速戰速決', price: 'low', rating: 4.0, desc: '上餐速度極快，米飯粒粒分明。' },
+  { name: '大學路手作飯糰', category: 'efficiency', vibe: '速戰速決', price: 'low', rating: 3.9, desc: '單手可食，適合在實驗室或辦公室快速解決。' },
+];
+
+const VIBES = [
+  { id: 'all', label: '隨便選', icon: <Shuffle className="w-4 h-4" /> },
+  { id: 'hot', label: '想吃熱的', icon: <Flame className="w-4 h-4 text-orange-500" /> },
+  { id: 'budget', label: '想省錢', icon: <DollarSign className="w-4 h-4 text-green-500" /> },
+  { id: 'efficiency', label: '速戰速決', icon: <Clock className="w-4 h-4 text-blue-500" /> },
+  { id: 'healthy', label: '清淡健康', icon: <Coffee className="w-4 h-4 text-emerald-500" /> },
+];
+
+export default function App() {
+  const [selectedVibe, setSelectedVibe] = useState('all');
+  const [recommendations, setRecommendations] = useState([]);
+  const [isSpinning, setIsSpinning] = useState(false);
+
+  // 推薦邏輯：根據 Vibe 隨機抽取 Top 3
+  const getRecommendations = () => {
+    setIsSpinning(true);
+    
+    setTimeout(() => {
+      let filtered = selectedVibe === 'all' 
+        ? [...FOOD_DATABASE] 
+        : FOOD_DATABASE.filter(f => f.category === selectedVibe);
+      
+      // 洗牌並取前三名
+      const shuffled = filtered.sort(() => 0.5 - Math.random());
+      setRecommendations(shuffled.slice(0, 3));
+      setIsSpinning(false);
+    }, 800);
+  };
+
+  useEffect(() => {
+    getRecommendations();
+  }, []);
+
+  return (
+    <div className="min-h-screen bg-slate-50 text-slate-900 font-sans p-6 md:p-12">
+      <div className="max-w-4xl mx-auto">
+        
+        {/* Header Area */}
+        <header className="mb-12 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <div className="flex items-center gap-2 text-blue-600 font-bold mb-2">
+              <Zap className="w-5 h-5 fill-current" />
+              <span className="tracking-widest uppercase text-sm">Decision Support System</span>
+            </div>
+            <h1 className="text-4xl font-black tracking-tight text-slate-800">
+              Campus Foodie <span className="text-blue-600">CHU</span>
+            </h1>
+            <p className="text-slate-500 mt-2">根據您的當前 Vibe，為您精密計算今日午餐方案</p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-2">
+            {VIBES.map(v => (
+              <button
+                key={v.id}
+                onClick={() => setSelectedVibe(v.id)}
+                className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold transition-all ${
+                  selectedVibe === v.id 
+                  ? 'bg-slate-900 text-white shadow-lg shadow-slate-900/20' 
+                  : 'bg-white text-slate-500 border border-slate-200 hover:border-slate-300'
+                }`}
+              >
+                {v.icon} {v.label}
+              </button>
+            ))}
+          </div>
+        </header>
+
+        {/* Action Button */}
+        <div className="flex justify-center mb-16">
+          <button
+            onClick={getRecommendations}
+            disabled={isSpinning}
+            className="group relative flex items-center gap-3 bg-blue-600 text-white px-10 py-5 rounded-3xl font-black text-xl hover:bg-blue-700 transition-all shadow-xl shadow-blue-600/30 active:scale-95 disabled:opacity-50"
+          >
+            <Shuffle className={`w-6 h-6 ${isSpinning ? 'animate-spin' : 'group-hover:rotate-180 transition-transform duration-500'}`} />
+            {isSpinning ? '系統計算中...' : '開始隨機推薦'}
+          </button>
+        </div>
+
+        {/* Results Area */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <AnimatePresence mode="popLayout">
+            {recommendations.map((item, index) => (
+              <motion.div
+                key={item.name}
+                layout
+                initial={{ opacity: 0, y: 20, scale: 0.9 }}
+                animate={{ opacity: 1, y: 0, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.8 }}
+                transition={{ delay: index * 0.1, duration: 0.4 }}
+                className="bg-white rounded-3xl border border-slate-100 p-6 shadow-sm hover:shadow-xl transition-shadow group relative overflow-hidden"
+              >
+                <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
+                  <Utensils className="w-20 h-20 rotate-12" />
+                </div>
+
+                <div className="flex justify-between items-start mb-4">
+                  <span className={`px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-widest ${
+                    item.price === 'low' ? 'bg-green-100 text-green-700' : 
+                    item.price === 'medium' ? 'bg-blue-100 text-blue-700' : 'bg-purple-100 text-purple-700'
+                  }`}>
+                    {item.price === 'low' ? '$' : item.price === 'medium' ? '$$' : '$$$'}
+                  </span>
+                  <div className="flex items-center gap-1 text-yellow-500">
+                    <Star className="w-3 h-3 fill-current" />
+                    <span className="text-xs font-bold">{item.rating}</span>
+                  </div>
+                </div>
+
+                <h3 className="text-xl font-bold text-slate-800 mb-2 group-hover:text-blue-600 transition-colors">
+                  {item.name}
+                </h3>
+                <p className="text-sm text-slate-500 mb-6 leading-relaxed">
+                  {item.desc}
+                </p>
+
+                <div className="flex items-center justify-between mt-auto">
+                  <div className="flex items-center gap-2 text-slate-400">
+                    <MapPin className="w-4 h-4" />
+                    <span className="text-xs">大庄/校園周邊</span>
+                  </div>
+                  <button className="p-3 rounded-2xl bg-slate-50 text-slate-400 group-hover:bg-blue-600 group-hover:text-white transition-all">
+                    <Navigation className="w-4 h-4" />
+                  </button>
+                </div>
+              </motion.div>
+            ))}
+          </AnimatePresence>
+        </div>
+
+        {/* Empty State */}
+        {recommendations.length === 0 && !isSpinning && (
+          <div className="text-center py-20 bg-slate-100 rounded-3xl border-2 border-dashed border-slate-200">
+            <Utensils className="w-12 h-12 text-slate-300 mx-auto mb-4" />
+            <p className="text-slate-500">此 Vibe 暫無推薦，試試其他的？</p>
+          </div>
+        )}
+
+        <footer className="mt-20 text-center border-t border-slate-200 pt-10">
+          <div className="text-slate-400 text-xs font-mono tracking-widest uppercase">
+            Designed for CHU Professionals // v1.0.4
+          </div>
+        </footer>
+      </div>
+    </div>
+  );
+}
